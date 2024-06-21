@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+}
+
+form{
+    width:270px;
+    height:530px;
+    background-color: rgb(238, 91, 189); 
+    margin: 20px 500px;
+    padding: 20px;
+}
+
+input{
+    margin: 10px;
+    width: 20px;  
+    height: 20px;
+    background-color: green;  
+    color: white;  
+    border: 3px solid gray;  
+    border-radius: 5px;  
+    padding: 26px;   
+    text-align: center;
+    align-items: center;
+    font-size: 1.5rem;  
+font-weight: 600;
+}
+#reset{  
+    width: 60px;  
+    height: 60px;
+    border: 3px solid gray;  
+    border-radius: 5px;  
+    padding: 26px;    
+        background-color: red;  
+        text-align: center;
+        margin: 5px;
+        font-size: 1.5rem;
+        align-items: center;
+        font-weight: 600;
+    } 
+      
+    #text{  
+     width: 180px;  
+    height: 0px;
+    border: 5px solid gray;  
+    outline: none;
+    border-radius: 3px;  
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+    }   

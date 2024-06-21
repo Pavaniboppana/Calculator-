@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="./Calculator.css" />
+    <script type="module" src="./Calculator.js"></script>
+  </head>
+  <body>
+    <div class="ox">
+      <form name="form1">
+       <input id="text"  name="disp"><br>
+      <input type="button" value="1" onclick="form1.disp.value += '1' " >
+      <input type="button" value="2" onclick="form1.disp.value += '2'">
+      <input type="button" value="3" onclick="form1.disp.value+='3'">
+                                                                   <br> <br>
+      <input type="button" value="4" onclick="form1.disp.value+='4'">
+      <input type="button" value="5" onclick="form1.disp.value+='5'">
+      <input type="button"  value="6" onclick="form1.disp.value+='6'">
+      <br> <br>
+      <input type="button" value="7" onclick="form1.disp.value+='7'">
+      <input type="button" value="8" onclick="form1.disp.value+='8'">
+      <input type="button"  value="9" onclick="form1.disp.value+='9'">
+      <br> <br>
+      <input type="button" value="+" onclick="form1.disp.value+='+'">
+      <input type="button" value="-" onclick="form1.disp.value+='-'">
+      <input type="button" value="*" onclick="form1.disp.value+='*'">
+      <br> <br>
+      <input type="button" value="*" onclick="form1.disp.value+='/'">
+      <input type="button" value="=" onclick="form1.disp.value= eval(form1.disp.value)">
+      <input type="reset"  value="c"  onclick ="form1.answer.value = ' ' " id= "reset">
+    
+
+     </form>
+    </div>
+    </body>
+</html>
+
